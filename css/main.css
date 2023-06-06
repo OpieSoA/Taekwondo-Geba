@@ -102,9 +102,20 @@ hr {
     color: #fff;
 }
 
-.showcase h2,
-.showcase p{
-    margin-bottom: 10px;
+.showcase_content{
+    padding: 2rem 3rem;
+    text-align: center;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(15px);
+}
+
+.showcase_content p{
+    color: #D1C821;
+}
+
+.showcase_content h2{
+    color: #691419;
 }
 
 .showcase .btn {
@@ -147,8 +158,12 @@ hr {
 
 .cards-1060 .content {
     width: 40%;
-    padding: 90px 0 0 30px;
+    padding: center;
+    text-align: center;
     color: #ffffff;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(10px);
 }
 
 .cards-1060 p{
@@ -184,13 +199,13 @@ hr {
 
 /* Links */
 .footer {
-    background: #2f3640;
+    background: #2f364028;
     color: #ffffff;
     font-size: 12px;
     padding: 20px 0;
     text-align: center;
-    font-size: 1rem;
     padding-bottom: 20px;
+    font-size: 1rem;
 }
 
 .footer a{
