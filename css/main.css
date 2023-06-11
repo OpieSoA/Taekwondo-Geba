@@ -213,19 +213,29 @@ hr {
     color: #535353;
 }
 
-/* Default styles here */
+/* Styling for desktop screens */
+.container {
+    width: 1200px; /* example width */
+    margin: 0 auto; /* center horizontally */
 
-/* Responsive styles for screens smaller than 768px */
+    /* additional styles */
+}
+
+  /* Media query for tablet screens */
 @media screen and (max-width: 768px) {
-    /* Styles for smaller screens here */
+    .container {
+      width: 100%; /* full width */
+      padding: 0 20px; /* add padding for readability */
+    }
+
+    /* additional styles */
 }
 
-/* Responsive styles for screens between 768px and 992px */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    /* Styles for medium-sized screens here */
-}
+  /* Media query for mobile screens */
+@media screen and (max-width: 480px) {
+    .container {
+      /* adjust styles for smaller screens */
+    }
 
-/* Responsive styles for screens larger than 992px */
-@media screen and (min-width: 992px) {
-    /* Styles for larger screens here */
+    /* additional styles */
 }
