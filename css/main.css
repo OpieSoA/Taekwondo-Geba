@@ -214,7 +214,7 @@ hr {
 }
 
 /* Styling for desktop screens */
-.container {
+html {
     width: 1200px; /* example width */
     margin: 0 auto; /* center horizontally */
 
@@ -223,7 +223,7 @@ hr {
 
   /* Media query for tablet screens */
 @media screen and (max-width: 768px) {
-    .container {
+    html {
       width: 100%; /* full width */
       padding: 0 20px; /* add padding for readability */
     }
@@ -233,8 +233,8 @@ hr {
 
   /* Media query for mobile screens */
 @media screen and (max-width: 480px) {
-    .container {
-      /* adjust styles for smaller screens */
+    html {
+    width: min(100%,950px);/* adjust styles for smaller screens */
     }
 
     /* additional styles */
