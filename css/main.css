@@ -213,26 +213,8 @@ hr {
     color: #535353;
 }
 
-/* Styling for desktop screens */
-html {
-    width: 1200px; /* example width */
-    margin: 0 auto; /* center horizontally */
-
-    /* additional styles */
-}
-
-  /* Media query for tablet screens */
-@media screen and (max-width: 768px) {
-    html {
-      width: 100%; /* full width */
-      padding: 0 20px; /* add padding for readability */
-    }
-
-    /* additional styles */
-}
-
-  /* Media query for mobile screens */
-@media screen and (max-width: 500px) {
+/* Media query for mobile screens */
+@media (max-width: 500px) {
     .info-cards {
         grid-template-columns: repeat(2, 1fr);
     }
