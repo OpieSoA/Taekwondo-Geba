@@ -233,9 +233,10 @@ html {
 
   /* Media query for mobile screens */
 @media screen and (max-width: 480px) {
-    html {
-    width: min(100%,950px);/* adjust styles for smaller screens */
+    .info-cards {
+        grid-template-columns: repeat(2, 1fr);
     }
+
 
     /* additional styles */
 }
