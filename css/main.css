@@ -215,7 +215,7 @@ hr {
 
 /* Media query for mobile screens */
 @media (max-width: 500px) {
-    .info-cards {
+    html {
         grid-template-columns: 1fr;
     }
 }
