@@ -215,7 +215,7 @@ hr {
 
 /* Media query for mobile screens */
 @media only screen and (max-width: 768px) {
-    .info-cards {
+    .info-cards, .cards-1060, .info-cards1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
